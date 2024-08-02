@@ -1,3 +1,68 @@
 @media screen and (min-width:992px) and (max-width:1024px) {
-    
+
+    /* banner-section-start */
+   
+.banner-area {
+    gap: 75px;
+}
+.banner-text h2 {
+    font-size: 3.5rem;
+}
+.banner-img{
+    max-width: 340px;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.banner-btn-join, .banner-btn-down{
+    font-size: 1rem;
+    padding: 12px 27px;
+}
+ /* banner-section-end */
+/* habits-section-start */
+ .habits-img{
+grid-template-columns: repeat(2,1fr);
+ }
+/* habits-section-end */
+
+/* run-section-start */
+.run-text-container h2{
+font-size: 2.5rem;
+}
+.run-text-container button{
+    font-size: 1rem;
+    padding: 12px 28px;
+}
+.run-area{
+    gap: 75px;
+}
+.run-img-container{
+  max-width: 366px;
+  height: 100%;
+}
+.run-text-container{
+   max-width: 443px;
+}
+.run-img-container img{
+    width: 100%;
+    height: 100%;
+}
+/* run-section-end */
+
+/* premier-section-start */
+
+.premier-video{
+    width: 490px;
+    height: 368px;
+}
+.premier-text h2{
+    font-size: 2.3rem;
+
+}
+.premier-text button{
+    font-size: 1rem;
+    padding: 12px 30px;
+}
+/* premier-section-end */
 }
