@@ -85,6 +85,9 @@
    .premier-contact-text h2 {
     font-size: 1.5rem;
    }
+   .footer-text{
+     grid-template-columns: repeat(1,1fr);
+   }
 /* premier-section-End */
   .hide{
     display: none;
