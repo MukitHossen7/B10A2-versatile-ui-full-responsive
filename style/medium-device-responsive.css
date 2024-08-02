@@ -1,3 +1,107 @@
-@media screen and (min-width:576px) and (max-width:992) {
-    
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* header-section-Start */
+  .manu-container{
+    width: 90%;
+    }
+    .banner-area{
+        flex-direction: column;
+        gap: 140px;
+    }
+    .banner-container {
+        margin-top: 100px;
+    }
+    .banner-img-position{
+        width: 42%;
+        bottom: 27%;
+        left: 0%;
+    }
+    .banner-img-position2{
+        width: 33%;
+        bottom: 74%;
+        right: 12%;
+    }
+   /* header-section-End */
+   /* habits-section-Start */
+.habits-img{
+    grid-template-columns: repeat(2 ,1fr);
 }
+   /* habits-section-End */
+   /* run-section-Start */
+   .run-container{
+    padding: 30px 32px 29px 25px;
+   }
+   .run-img-container{
+    width: 366px;
+    height: 312px;
+   }
+   .run-img-container img{
+    width: 100%;
+    height: 100%;
+   }
+   .run-text-container{
+       width: 443px;
+   }
+   .run-text-container h2{
+     font-size: 2.7rem;
+   }
+   .run-area{
+    gap: 50px;
+   }
+   /* run-section-End */
+   /* chart-calculate-Start */
+  
+   .chart-calculate-container{
+    flex-direction: column;
+   }
+   .chart-calculate-area{
+    margin-left: 45px;
+    margin-bottom: 45px;
+   }
+   .calculate-bmi-area{
+    max-width: 100%;
+    padding: 0 45px;
+   }
+ /* chart-calculate-End */
+ .our-team-img{
+    grid-template-columns: repeat(2,1fr);
+   }
+/* premier-section-Start */
+ .premier-area{
+   
+    gap: 55px;
+   }
+   .premier-video{
+    width: 349px;
+    height: 304px;
+   }
+   .premier-text button{
+    padding: 15px 10px;
+    font-size: 1rem;
+   }
+   .premier-text h2{
+    font-size: 1.8rem;
+   } 
+   .premier-contact-text h2 {
+    font-size: 1.5rem;
+   }
+/* premier-section-End */
+  .hide{
+    display: none;
+  }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
