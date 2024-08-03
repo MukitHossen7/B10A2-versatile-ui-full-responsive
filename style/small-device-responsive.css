@@ -10,6 +10,7 @@
     }
     .manu-container{
         width: 85%;
+        padding-top: 25px;
     }
     /* banner code */
      .banner-area{
@@ -64,9 +65,13 @@
     .habits-text h2{
         font-size: 2rem;
     }
+    .habits-card img{
+        margin-bottom: 20px;
+    }
     .habits-img{
         grid-template-columns: repeat(1,1fr);
         padding: 0px 30px;
+        gap: 10px;
     }
      /* .habits-container{
         width: 85%;
@@ -86,6 +91,10 @@
     }
     .run-text-container h2{
         font-size: 2.5rem;
+        text-align: center;
+    }
+    .run-text-container p{
+        text-align: center;
     }
     .run-button button{
         width: 100%;
@@ -109,7 +118,11 @@
    }
    .claculator-text h2 {
     font-size: 2.5rem;
+    text-align: center;
     /* font-size: 1.5rem; */
+   }
+   .claculator-text p{
+    text-align: center;
    }
    .calculate-bmi-area h2{
     font-size: 1.5rem;
@@ -144,10 +157,19 @@
    .footer-container {
     margin-top: 36px;
    }
+   .fitness-box h2{
+    font-size: 3.5rem;
+   }
    .footer-text{
     grid-template-columns: repeat(1,1fr);
     gap: 20px;
     margin-bottom: 45px;
+   }
+   .footer-reserved p {
+    text-align: center;
+   }
+   .started-box-one li a, .started-box-two li a{
+     font-size: 1rem;
    }
    .started-main-box{
     flex-direction: column;
@@ -172,14 +194,19 @@
     flex-direction: column;
     width: 100%;
    }
+   .premier-text{
+    text-align: center;
+   }
    .premier-text h2{
     font-size: 2.4rem;
+    text-align: center;
    }
    .premier-text button{
     font-size: 1rem;
    }
    .premier-contact-text h2{
     font-size: 1.7rem;
+    text-align: center;
    }
    
 }
