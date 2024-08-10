@@ -82,6 +82,7 @@
         flex-direction: column;
         text-align: center;
         gap: 40px;
+        padding:15px;
     }
     .run-container{
         width: 85%;
